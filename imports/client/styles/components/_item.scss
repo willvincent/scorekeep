@@ -1,0 +1,32 @@
+$green: #e4ede0;
+$blue: #dfe7ed;
+$red: #eddfdf;
+
+.item {
+  background: #fff;
+  border: .1rem solid #e8e8e8;
+  margin-bottom: 1.3rem;
+  padding: 1.3rem;
+}
+
+.item--position-1 {
+  background: $green;
+  border-color: darken($green, 15%);
+}
+
+.item--position-2 {
+  background: $red;
+  border-color: darken($red, 15%);
+}
+
+.item--position-3 {
+  background: $blue;
+  border-color: darken($blue, 15%);
+}
+
+.item__message {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
